@@ -8,7 +8,7 @@ var rooms = myRooms;//JSON.parse(list_rooms.json);
 
 roomsRouter.get('/', function (request, response){
     console.log("Hello world Dev!")
-    response.status(200).json(path.join(__dirname,'/listofrooms.json'));
+    //response.status(200).json(path.join(__dirname,'/listofrooms.json'));
 });
 
 roomsRouter.get('/getroom', function (request, response){
