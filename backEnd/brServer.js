@@ -1,21 +1,13 @@
 var express = require('express');
-var path = require('path');
+var app = express();
+const port = 8080;
+var roomsRoute =  require('./routes/roomsRoute');
+var mainRoute = require('./routes/mainRoute');
 
-const port = 4000;
-const app = express();
+app.use('/', mainRoute);
+app.use('/rooms', roomsRoute);
 
-var rooms = require('./rooms');
-app.use('/rooms', rooms);
 
-var logger = require('./logger');
-app.use(logger);
-
-//app.use(express.static('../src'));
-
-app.listen(port, function(err){
-  if (err) {
-    console.log(err);
-  } else {
-    console.log(`http://localhost:${port}`);
-  }
+app.listen(port, function(){
+  console.log('listening to port 8080');
 });
