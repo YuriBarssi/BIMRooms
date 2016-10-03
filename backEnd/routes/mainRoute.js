@@ -1,10 +1,13 @@
+var mainDirectory = require('../../constants');
+
 var express = require('express');
 var router =  express.Router();
 
 router.route('/')
 .get(function(request, response) {
   //response.send('Hello From Main Route');
-  response.sendFile('/static/index.html');
+
+  response.sendFile(mainDirectory+'/src/index.html');
 });
 router.route('/:name')
 .get(function(request, response) {
