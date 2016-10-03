@@ -7,6 +7,10 @@ var mainRoute = require('./routes/mainRoute');
 app.use('/', mainRoute);
 app.use('/rooms', roomsRoute);
 
+var logger = require('./logger');
+app.use(logger);
+
+app.use(express.static('../../src'));
 
 app.listen(port, function(){
   console.log('listening to port 8080');
