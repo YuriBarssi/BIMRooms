@@ -7,7 +7,7 @@ var myRooms = require('../data/list_rooms.json');
 
 router.route('/')
 .get(function(request, response) {
-  console.log(json);
+  //console.log(json);
   response.sendFile(mainDirectory+'/src/index.html');
 });
 
