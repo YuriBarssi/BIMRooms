@@ -6,10 +6,11 @@ router.route('/')
 .get(function(request, response) {
   response.json(myRooms);
 });
-// router.route('/room/:id')
-// .get(function(request, response) {
-//   response.json(myRooms[request.params.id]);
-// })
+
+router.route('/:id')
+ .get(function(request, response) {
+   response.json(myRooms[request.params.id]);
+ });
 // .post(function(request, response) {
 //   response.send('cool It works in post and body response ' + request.params.id);
 // });

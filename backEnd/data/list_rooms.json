@@ -4,7 +4,7 @@
   "description"   :   "Single room in Bambala to rent, bus stop within walk distance, calm neighborhood",
   "region"        :   "Bambala",
   "type_of_house" :   "Gemined house",
-  "images"        :   [ "0pic1.jpg", "0pic2.jpg", "0pic3.jpg"],
+  "images"        :   [ "0pic1.jpg"],
   "ibmer_details" :  {
     "name"  :  "John Doe",
     "team"  :  "IBM Connections",
@@ -18,7 +18,7 @@
   "description"   :   "Apartment with two rooms, 5 minute walk to IBM, room refurbished with furnitures",
   "region"        :   "Arimathaea",
   "type_of_house" :   "Apartment",
-  "images"        :   ["1pic1.jpg", "1pic2.jpg", "1pic3.jpg"],
+  "images"        :   ["1pic1.jpg"],
   "ibmer_details" : {
     "name"  : "Amy Jones",
     "team"  : "Design team",
@@ -32,7 +32,7 @@
   "description"   :   "Offering temporary room during the first week of November 2015, roomate travelling. Ride to IBM daily, supermarket nearby ",
   "region"        :   "Indigo",
   "type_of_house" :   "House",
-  "images"        :   ["2pic1.jpg", "2pic2.jpg", "2pic3.jpg"],
+  "images"        :   ["2pic1.jpg"],
   "ibmer_details" :   {
     "name"  : "John Johnson Jr",
     "team"  : "IBM Connections",
@@ -45,7 +45,7 @@
   "overview"      :   "Urgent! Room to rent",
   "description"   :   "Room to rent near IBM for the next 3 months. Unique opportunity, 10 minutes from IBM, bus stop in front of the building. Contact me for details.",
   "type_of_house" :   "Studio",
-  "images"        :   ["3pic1.jpg", "3pic2.jpg", "3pic3.jpg"],
+  "images"        :   ["3pic1.jpg"],
   "ibmer_details" :   {
     "name"  : "Andrew Andrews",
     "team"  : "Orient Me",

@@ -12,3 +12,8 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+
+img {
+    height: 200px;
+    width: 30%;
+}
