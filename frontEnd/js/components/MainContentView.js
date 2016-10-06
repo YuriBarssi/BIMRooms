@@ -11,9 +11,7 @@ class MainContentView extends Component {
       <div className="container">
         <FullSearchBar />
         <br></br>
-        <div className="row">
-          <RoomCardContainer />
-        </div>
+        <RoomCardContainer />
         <br></br>
         <br></br>
         <PaginationItem />

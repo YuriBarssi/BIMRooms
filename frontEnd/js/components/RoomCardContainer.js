@@ -1,25 +1,51 @@
 import React, {Component} from 'react';
 import ReactDom from 'react-dom';
-import RoomCard from './RoomCard.js';
-
+import Rows from './RoomCardRows.js';
 import myRooms from 'json!../../../backEnd/data/list_rooms.JSON';
 
-console.log(myRooms);
-const myRoomJason = myRooms;
+const myRoomJSON = myRooms;
+const minimumColumnsPerRow = 3;
+
+
 
 class RoomCardContainer extends Component {
-	render() {
-		return (
-      <div>
-        {myRoomJason.map ((roomItem, index) => {
-          console.log(roomItem.images[0]);
-          return (
-            <RoomCard key={index} cardImage={"./images/"+roomItem.images[0]+""} cardTitle = {roomItem.overview} cardContent = {roomItem.description}/>
-          );
-        })}
-      </div>
+  splitRow() {
+    let count = 1;
+    let pushNewArray = [];
+    let newRoomJSONList = [];
+
+    for(let index = 0; index < myRoomJSON.length; index++) {
+      if (count > minimumColumnsPerRow) {
+        newRoomJSONList.push(pushNewArray)
+        pushNewArray = [];
+        pushNewArray.push(myRoomJSON[index]);
+        count = 1;
+      } else {
+        pushNewArray.push(myRoomJSON[index]);
+        count++;
+      }
+    }
+    newRoomJSONList.push(pushNewArray);
+    return newRoomJSONList
+  }
+  renderRow() {
+    let myArray = this.splitRow();
+    console.log(myArray);
+    return(
+        myArray.map((columns, index) => {
+          console.log('inside columns');
+          console.log(columns);
+          return (<Rows key = {index} data={columns} />);
+        })
+      );
+  }
+  render() {
+    return(
+    <div className="section">
+        {this.renderRow()}
+    </div>
     );
-	}
+  }
 }
 
 export  default RoomCardContainer;

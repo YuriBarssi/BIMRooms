@@ -5,7 +5,7 @@ import ReactDom from 'react-dom';
 class RoomCard extends Component {
   render() {
     return (
-      <div className="col s12 m4">
+      <div className="col m4">
         <div className="card">
          <div className="card-image">
            <img src={this.props.cardImage} />
