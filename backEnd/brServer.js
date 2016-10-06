@@ -4,7 +4,6 @@ var path = require('path');
 var mainDirectory = require('../constants');
 var roomsRoute =  require('./routes/roomsRoute');
 var mainRoute = require('./routes/mainRoute');
-var testRouteParam = require('./routes/testRouteParams');
 const port = 8080;
 
 app.use('/', mainRoute);
