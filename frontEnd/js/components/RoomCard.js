@@ -8,15 +8,14 @@ class RoomCard extends Component {
       <div className="col s12 m4">
         <div className="card">
          <div className="card-image">
-           <img src="./images/0pic1.jpg" />
-           <span className="card-title">Card Title</span>
+           <img src={this.props.cardImage} />
+           <span className="card-title">{this.props.cardTitle}</span>
          </div>
          <div className="card-content">
-           <p>I am a very simple card. I am good at containing small bits of information.
-           I am convenient because I require little markup to use effectively.</p>
+           <p>{this.props.cardContent}</p>
          </div>
          <div className="card-action">
-           <a href="#">This is a link</a>
+           <a href="#">Click to open</a>
          </div>
        </div>
       </div>
@@ -24,4 +23,4 @@ class RoomCard extends Component {
   }
 }
 
-export  default RoomCard;  
+export  default RoomCard;

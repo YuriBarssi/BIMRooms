@@ -1,7 +1,7 @@
 [{
   "id"            :   0,
   "overview"      :   "Single room to rent",
-  "description"   :   "Single room in Bambala to rent, bus stop within walk distance, calm neighborhood",
+  "description"   :   "Single room in Bambala to rent, bus stop within walk distance, calm neighborhood. Contact me if interested, the house is great",
   "region"        :   "Bambala",
   "type_of_house" :   "Gemined house",
   "images"        :   [ "0pic1.jpg"],
@@ -14,8 +14,8 @@
 },
 {
   "id"            :   1,
-  "overview"      :   "Lovely apartment room to share with IBMrs (preferably) from Design team",
-  "description"   :   "Apartment with two rooms, 5 minute walk to IBM, room refurbished with furnitures",
+  "overview"      :   "Lovely apartment room to share",
+  "description"   :   "Apartment with two rooms, 5 minute walk to IBM. Want to share with IBMrs (preferably) from Design team. The room was refurbished and has all necessary furnitures",
   "region"        :   "Arimathaea",
   "type_of_house" :   "Apartment",
   "images"        :   ["1pic1.jpg"],
@@ -45,6 +45,7 @@
   "overview"      :   "Urgent! Room to rent",
   "description"   :   "Room to rent near IBM for the next 3 months. Unique opportunity, 10 minutes from IBM, bus stop in front of the building. Contact me for details.",
   "type_of_house" :   "Studio",
+  "region"        :   "Suissen",
   "images"        :   ["3pic1.jpg"],
   "ibmer_details" :   {
     "name"  : "Andrew Andrews",
@@ -52,4 +53,18 @@
     "email" : "aandrews@ibm.ie",
     "photo" : "aaphoto.jpg"
   }
+},
+  {
+    "id"            :   4,
+    "overview"      :   "Double Room for CNext",
+    "description"   :   "Awesome place for awesome people! If you need it for a couple of days, let me know. Close to facilities in Vladvirmir",
+    "type_of_house" :   "Studio",
+    "region"        :   "Wladvirmir",
+    "images"        :   ["4pic1.jpg"],
+    "ibmer_details" :   {
+      "name"  : "Rob Roberts",
+      "team"  : "CNext",
+      "email" : "rrob@ibm.ie",
+      "photo" : "rrphoto.jpg"
+    }
 }]
