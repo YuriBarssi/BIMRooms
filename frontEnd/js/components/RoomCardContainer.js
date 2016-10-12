@@ -1,14 +1,18 @@
 import React, {Component} from 'react';
 import ReactDom from 'react-dom';
 import Rows from './RoomCardRows.js';
-import myRooms from 'json!../../../backEnd/data/list_rooms.JSON';
+import {connect} from 'react-redux';
 
-const myRoomJSON = myRooms;
+let myRoomJSON;
 const minimumColumnsPerRow = 3;
 
 
 
 class RoomCardContainer extends Component {
+  constructor(props) {
+    super(props);
+    myRoomJSON = this.props.rooms;
+  }
   splitRow() {
     let count = 1;
     let pushNewArray = [];
@@ -48,4 +52,10 @@ class RoomCardContainer extends Component {
   }
 }
 
-export  default RoomCardContainer;
+function mapStateToProps(state) {
+    return {
+        rooms: state.rooms
+    };
+}
+
+export  default connect(mapStateToProps)(RoomCardContainer);
