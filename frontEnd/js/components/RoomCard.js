@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import ReactDom from 'react-dom';
 
-
 class RoomCard extends Component {
   render() {
     return (
@@ -14,8 +13,9 @@ class RoomCard extends Component {
          <div className="card-content">
            <p>{this.props.cardContent}</p>
          </div>
-         <div className="card-action">
+         <div className="card-action orange-text text-darken-4">
            <a href="#">Click to open</a>
+           <i className="material-icons orange-text text-darken-4">stars</i>
          </div>
        </div>
       </div>

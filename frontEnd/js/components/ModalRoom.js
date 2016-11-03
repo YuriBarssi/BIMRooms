@@ -33,4 +33,4 @@ class ModalRoom extends Component {
   }
 }
 
-export  default FullSearchBar;
+export default ModalRoom;
