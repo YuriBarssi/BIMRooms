@@ -20,7 +20,7 @@ class NavigationBar extends Component {
 
 
 			      <ul className="right hide-on-med-and-down">
-			        <li><a href="#!"><i className="material-icons left">search</i>Refine your Search</a></li>
+			        <li><a data-activates="slide-out" class="button-collapse" href="#!"><i className="material-icons left">search</i>Refine your Search</a></li>
 			        <li><a href="#!"><i className="material-icons">view_module</i></a></li>
 							<li><a href="#!"><i className="material-icons">view_list</i></a></li>
 			        <li><a href="#!"><i className="material-icons">refresh</i></a></li>
