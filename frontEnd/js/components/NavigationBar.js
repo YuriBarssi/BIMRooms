@@ -2,6 +2,16 @@ import React, {Component} from 'react';
 import ReactDom from 'react-dom';
 
 class NavigationBar extends Component {
+	constructor() {
+		super();
+		this.state = {
+			initialName: " / Rooms"
+		};
+	}
+	changeTitle(title) {
+		console.log('changing');
+		this.setState ({initialName: title});
+	}
 	render() {
 		let initialName = " / Rooms";
 		return (
@@ -10,12 +20,31 @@ class NavigationBar extends Component {
 			    <div className="nav-wrapper">
 			      <a href="#!" className="brand-logo">
 							<i className="material-icons">business</i>BIM
-							<a href="#!" className="dropdown-button" data-activates="dropdown1">{initialName}</a></a>
+								<a href="#!" className="dropdown-button" data-activates="dropdown1">
+									{this.state.initialName}
+								</a>
+					</a>
 								<ul id='dropdown1' className="dropdown-content">
-								 <li><a className="light-blue darken-4 white-text" href="#!">/Rooms</a></li>
-								 <li><a className="light-blue darken-4 white-text" href="#!">/Classrooms</a></li>
-								 <li><a className="light-blue darken-4 white-text" href="#!">/Shareplace</a></li>
-								 <li><a className="light-blue darken-4 white-text" href="#!">/Motors</a></li>
+								 <li>
+								 	<a className="light-blue darken-4 white-text" onClick={this.changeTitle.bind(this, '/ Rooms')} href="/#/Rooms">
+								 		/Rooms
+								 	</a>
+								 </li>
+								 <li>
+								 	<a className="light-blue darken-4 white-text"  onClick={this.changeTitle.bind(this, '/ Classrooms')} href="/#/Classrooms">
+								 		/Classrooms
+								 	</a>
+								 </li>
+								 <li>
+								 	<a className="light-blue darken-4 white-text" onClick={this.changeTitle.bind(this, '/ Shareplaces')} href="/#/Shareplaces">
+								 		/Shareplace
+								 	</a>
+								 </li>
+								 <li>
+								 	<a className="light-blue darken-4 white-text" onClick={this.changeTitle.bind(this, '/ Motors')} href="/#/Motors">
+								 		/Motors
+								 	</a>
+								 </li>
 								</ul>
 
 
