@@ -28,13 +28,13 @@
 },
 {
   "id"            :   2,
-  "overview"      :   "Room to lend for the next week",
+  "overview"      :   "Room to lend next week",
   "description"   :   "Offering temporary room during the first week of November 2015, roomate travelling. Ride to IBM daily, supermarket nearby ",
   "region"        :   "Indigo",
   "type_of_house" :   "House",
   "images"        :   ["2pic1.jpg"],
   "ibmer_details" :   {
-    "name"  : "John Johnson Jr",
+    "name"  : "John Johnson",
     "team"  : "IBM Connections",
     "email" : "jjj@ibm.ie",
     "photo" : "jjjphoto.jpg"

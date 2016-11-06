@@ -12,9 +12,9 @@ class RoomCard extends Component {
         <div className="card hoverable modal-trigger" href = {this.generateID()}>
          <div className="card-image">
            <img className="imgRow" src={this.props.cardImage} />
-           <span className="card-title">
+           <span className="card-title title-shadowing">
              <b>{this.props.room.overview}</b>
-             <div>
+             <div className="text-shadowing">
                <h6>{this.props.room.type_of_house} in {this.props.room.region}</h6>
              </div>
            </span>
@@ -25,9 +25,11 @@ class RoomCard extends Component {
            <i className="material-icons modal-trigger orange-text text-darken-4 right">visibility</i>
          </div>
          {/* Below is the modal*/}
-         <div id={this.props.id} className="modal modalCss">
-           <img className="left" src={this.props.cardImage} />
-           <div className="modal-content">
+         <div id={this.props.id} className="modal">
+           <div className="modal-content right text-with-padding">
+             <div className="left">
+               <img src={this.props.cardImage} />
+             </div>
             <h4>{this.props.room.overview}</h4>
             <div>
               <p><b>Overview: </b>{this.props.room.description}</p>
@@ -38,11 +40,11 @@ class RoomCard extends Component {
             </div>
           </div>
           <div className="modal-footer">
-            <a href="#!" className="modal-action waves-effect waves-gray btn-flat blue-text text-darken-4">
+            <a href="#!" className="modal-action waves-effect btn-flat blue-text text-darken-4">
               Contact Person
               <i className="material-icons orange-text text-darken-4 right">email</i>
             </a>
-            <a href="#!" className="modal-action waves-effect waves-gray btn-flat blue-text text-darken-4">
+            <a href="#!" className="modal-action waves-effect btn-flat blue-text text-darken-4">
               Add to Favorites
               <i className="material-icons orange-text text-darken-4 right">star</i>
             </a>
