@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import ReactDom from 'react-dom';
-import Rows from './RoomCardRows.js';
+import RoomCardRows from './RoomCardRows.js';
 import myRooms from 'json!../../../backEnd/data/list_rooms.JSON';
 
 const myRoomJSON = myRooms;
-const minimumColumnsPerRow = 3;
+const minimumColumnsPerRow = 4;
 
 class RoomCardContainer extends Component {
   splitRow() {
@@ -33,7 +33,7 @@ class RoomCardContainer extends Component {
         myArray.map((columns, index) => {
           console.log('inside columns');
           console.log(columns);
-          return (<Rows key = {index} data={columns} />);
+          return (<RoomCardRows key = {index} data={columns} />);
         })
       );
   }

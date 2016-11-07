@@ -49,11 +49,18 @@ class NavigationBar extends Component {
 
 
 			      <ul className="right hide-on-med-and-down">
-			        <li><a href="#!"><i className="material-icons left">search</i>Refine your Search</a></li>
-			        <li><a href="#!"><i className="material-icons">view_module</i></a></li>
-							<li><a href="#!"><i className="material-icons">view_list</i></a></li>
-			        <li><a href="#!"><i className="material-icons">refresh</i></a></li>
-			        <li><a href="#!"><i className="material-icons">more_vert</i></a></li>
+			        <li><a data-activates="slide-out" href="#!"><i className="material-icons left">search</i>Refine your Search</a></li>
+							<ul id="slide-out" className="side-nav">
+								<li><div className="userView">
+				          <div className="background">
+				          </div>
+				        </div></li>
+							</ul>
+							<li><a href="#!"><i className="material-icons">view_module</i></a></li>
+							<li><a href="#!"><i className="material-icons disabled">view_list</i></a></li>
+			        <li><a href="javascript:window.location.reload(true)"><i className="material-icons">refresh</i></a></li>
+			        <li><a href="#!"><i className="material-icons">more_vert</i></a>
+							</li>
 			      </ul>
 			    </div>
 		 	</nav>
