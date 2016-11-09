@@ -10,6 +10,10 @@ html {
    font-family: Helvetica, GillSans, Calibri, Trebuchet, sans-serif;
 }
 
+.logo-padding {
+  padding-left: 10px;
+}
+
 .centered {
   position: fixed;
   top: 50%;
@@ -55,3 +59,12 @@ html {
 .modalDetailInfo{
   padding-left: 10px;
 }
+body {
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+ }
+
+ main {
+   flex: 1 0 auto;
+ }

@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import ReactDom from 'react-dom';
+import classNames from 'classnames';
 
 class RoomCard extends Component {
 
@@ -7,6 +8,9 @@ class RoomCard extends Component {
     return '#' + this.props.id;
   }
   render() {
+    const favoriteClasses = classNames('material-icons', (this.props.room.isFavorite
+      ? 'orange-text text-darken-4 right'
+      : 'grey-text text-lighten-2 right'));
     return (
       <div className="col m3">
         <div className="card hoverable modal-trigger" href = {this.generateID()}>
@@ -23,8 +27,7 @@ class RoomCard extends Component {
           <b>{this.props.room.ibmer_details.name}</b>
           <div>
             @ {this.props.room.ibmer_details.team}
-            <i className="material-icons orange-text text-darken-4 right">star</i>
-            <i className="material-icons modal-trigger orange-text text-darken-4 right">visibility</i>
+            <i className={favoriteClasses}>star</i>
           </div>
          </div>
          {/* Below is the modal*/}
@@ -41,6 +44,10 @@ class RoomCard extends Component {
                   <p><b>Region: </b>{this.props.room.region}</p>
                   <br/>
                   <p><b>Contact: </b>{this.props.room.ibmer_details.name} @ {this.props.room.ibmer_details.team}</p>
+                  <br/>
+                  <p><i className="material-icons green-text text-darken-4">done</i><b>Verified IBM User</b></p>
+                  <p><i className="material-icons green-text text-darken-4">done</i><b>Available Right Away</b></p>
+                  <p><i className="material-icons green-text text-darken-4">done</i><b>Near IBM</b></p>
                 </div>
               </div>
           </div>
