@@ -57,4 +57,19 @@
     "email" : "aandrews@ibm.ie",
     "photo" : "aaphoto.jpg"
   }
+},
+  {
+    "id"            :   4,
+    "overview"      :   "Advanced CSS",
+    "description"   :   "Giving classes or mini courses for BIMers after workours. CSS, SCSS, SASS and tons of design stuff for front end enthusiasts!",
+    "region"        :   "IBM Premisses - BLD 6",
+    "type_of_house" :   "Coding Related Class",
+    "isFavorite"    :   true,
+    "images"        :   ["4class1.jpg"],
+    "ibmer_details" :   {
+      "name"  : "James Marcus",
+      "team"  : "IBM Kinexa",
+      "email" : "jm@ibm.ie",
+      "photo" : "jjmphoto.jpg"
+    }
 }]

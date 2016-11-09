@@ -40,7 +40,7 @@ class RoomCard extends Component {
               <div className="col s6">
                   <h4>{this.props.room.overview}</h4>
                   <p><b>Overview: </b>{this.props.room.description}</p>
-                  <p><b>Type of House: </b>{this.props.room.type_of_house}</p>
+                  <p><b>Type: </b>{this.props.room.type_of_house}</p>
                   <p><b>Region: </b>{this.props.room.region}</p>
                   <br/>
                   <p><b>Contact: </b>{this.props.room.ibmer_details.name} @ {this.props.room.ibmer_details.team}</p>

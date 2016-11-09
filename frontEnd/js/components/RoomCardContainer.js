@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import ReactDom from 'react-dom';
 import RoomCardRows from './RoomCardRows.js';
-import myRooms from 'json!../../../backEnd/data/list_rooms.JSON';
+import myRooms from 'json!../../../backEnd/data/list_classrooms.JSON';
 
 const myRoomJSON = myRooms;
 const minimumColumnsPerRow = 4;
