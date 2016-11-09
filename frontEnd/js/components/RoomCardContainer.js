@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import ReactDom from 'react-dom';
 import RoomCardRows from './RoomCardRows.js';
-import myRooms from 'json!../../../backEnd/data/list_classrooms.JSON';
+import myRooms from 'json!../../../backEnd/data/list_rooms.JSON';
 
 const myRoomJSON = myRooms;
 const minimumColumnsPerRow = 4;
@@ -33,7 +33,7 @@ class RoomCardContainer extends Component {
         myArray.map((columns, index) => {
           console.log('inside columns');
           console.log(columns);
-          return (<RoomCardRows key = {index} data={columns} />);
+          return (<RoomCardRows key = {index} id = {'room' + index.toString()} data={columns} />);
         })
       );
   }

@@ -42,12 +42,10 @@ class RoomCard extends Component {
                   <p><b>Overview: </b>{this.props.room.description}</p>
                   <p><b>Type: </b>{this.props.room.type_of_house}</p>
                   <p><b>Region: </b>{this.props.room.region}</p>
-                  <br/>
                   <p><b>Contact: </b>{this.props.room.ibmer_details.name} @ {this.props.room.ibmer_details.team}</p>
-                  <br/>
-                  <p><i className="material-icons green-text text-darken-4">done</i><b>Verified IBM User</b></p>
-                  <p><i className="material-icons green-text text-darken-4">done</i><b>Available Right Away</b></p>
-                  <p><i className="material-icons green-text text-darken-4">done</i><b>Near IBM</b></p>
+                  <br /><i className="material-icons green-text text-darken-4">done</i><b>Verified IBM User</b>
+                  <br /><i className="material-icons green-text text-darken-4">done</i><b>Available Right Away</b>
+                  <br /><i className="material-icons green-text text-darken-4">done</i><b>Near IBM</b>
                 </div>
               </div>
           </div>
