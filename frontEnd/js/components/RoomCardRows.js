@@ -7,7 +7,7 @@ class RoomCardRows extends Component {
     return(
       this.props.data.map((roomItem, index) => {
         return (
-          <RoomCard key={index} id={this.props.id} cardImage={"./images/"+roomItem.images[0]}
+          <RoomCard key={index} id={index.toString() + this.props.id} cardImage={"./images/"+roomItem.images[0]}
             room={roomItem}/>
         );
       })

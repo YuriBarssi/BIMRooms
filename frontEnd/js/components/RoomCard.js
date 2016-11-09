@@ -7,13 +7,17 @@ class RoomCard extends Component {
   generateID() {
     return '#' + this.props.id;
   }
+  helloWorld(sim) {
+    console.log('helloWorld click on card image');
+    $(sim).openModal();
+  }
   render() {
     const favoriteClasses = classNames('material-icons', (this.props.room.isFavorite
       ? 'orange-text text-darken-4 right'
       : 'grey-text text-lighten-2 right'));
     return (
       <div className="col m3">
-        <div className="card hoverable modal-trigger" href = {this.generateID()}>
+        <div className="card hoverable modal-trigger" onClick={() => {this.helloWorld(this.generateID());}} href = {this.generateID()}>
          <div className="card-image">
            <img className="imgRow" src={this.props.cardImage} />
            <span className="card-title title-shadowing">
@@ -30,8 +34,9 @@ class RoomCard extends Component {
             <i className={favoriteClasses}>star</i>
           </div>
          </div>
-         {/* Below is the modal*/}
-         <div id={this.props.id} className="modal modalCss">
+       </div>
+   {/* Below is the modal*/}
+     <div id={this.props.id} className="modal modalCss">
            <div className="modal-content">
             <div className="row">
               <div className="col s6">
@@ -60,7 +65,6 @@ class RoomCard extends Component {
             </a>
           </div>
         </div>
-       </div>
       </div>
     );
   }
