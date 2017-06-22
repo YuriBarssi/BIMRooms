@@ -4,20 +4,22 @@
   "description"   :   "Single room in Bambala to rent, bus stop within walk distance, calm neighborhood. Contact me if interested, the house is great",
   "region"        :   "Bambala",
   "type_of_house" :   "Gemined house",
+  "isFavorite"    :   true,
   "images"        :   [ "0pic1.jpg"],
   "ibmer_details" :  {
     "name"  :  "John Doe",
-    "team"  :  "IBM Connections",
+    "team"  :  "IBM CNext",
     "email" : "jdoe@ibm.ie",
     "photo" : "jdoepic.jpg"
   }
 },
 {
   "id"            :   1,
-  "overview"      :   "Lovely apartment room to share",
+  "overview"      :   "Lovely double room",
   "description"   :   "Apartment with two rooms, 5 minute walk to IBM. Want to share with IBMrs (preferably) from Design team. The room was refurbished and has all necessary furnitures",
   "region"        :   "Arimathaea",
   "type_of_house" :   "Apartment",
+  "isFavorite"    :   true,
   "images"        :   ["1pic1.jpg"],
   "ibmer_details" : {
     "name"  : "Amy Jones",
@@ -28,14 +30,15 @@
 },
 {
   "id"            :   2,
-  "overview"      :   "Room to lend for the next week",
+  "overview"      :   "Room to lend next week",
   "description"   :   "Offering temporary room during the first week of November 2015, roomate travelling. Ride to IBM daily, supermarket nearby ",
   "region"        :   "Indigo",
   "type_of_house" :   "House",
+  "isFavorite"    :   false,
   "images"        :   ["2pic1.jpg"],
   "ibmer_details" :   {
-    "name"  : "John Johnson Jr",
-    "team"  : "IBM Connections",
+    "name"  : "John Johnson",
+    "team"  : "IBM CNext",
     "email" : "jjj@ibm.ie",
     "photo" : "jjjphoto.jpg"
   }
@@ -46,6 +49,7 @@
   "description"   :   "Room to rent near IBM for the next 3 months. Unique opportunity, 10 minutes from IBM, bus stop in front of the building. Contact me for details.",
   "type_of_house" :   "Studio",
   "region"        :   "Suissen",
+  "isFavorite"    :   false,
   "images"        :   ["3pic1.jpg"],
   "ibmer_details" :   {
     "name"  : "Andrew Andrews",
@@ -54,17 +58,78 @@
     "photo" : "aaphoto.jpg"
   }
 },
-  {
-    "id"            :   4,
-    "overview"      :   "Double Room for CNext",
-    "description"   :   "Awesome place for awesome people! If you need it for a couple of days, let me know. Close to facilities in Vladvirmir",
-    "type_of_house" :   "Studio",
-    "region"        :   "Wladvirmir",
-    "images"        :   ["4pic1.jpg"],
-    "ibmer_details" :   {
-      "name"  : "Rob Roberts",
-      "team"  : "CNext",
-      "email" : "rrob@ibm.ie",
-      "photo" : "rrphoto.jpg"
-    }
+{
+  "id"            :   4,
+  "overview"      :   "Double Room for CNext",
+  "description"   :   "Awesome place for awesome people! If you need it for a couple of days, let me know. Close to facilities in Vladvirmir",
+  "type_of_house" :   "Studio",
+  "region"        :   "Wladvirmir",
+  "isFavorite"    :   false,
+  "images"        :   ["4pic1.jpg"],
+  "ibmer_details" :   {
+    "name"  : "Rob Roberts",
+    "team"  : "CNext",
+    "email" : "rrob@ibm.ie",
+    "photo" : "rrphoto.jpg"
+  }
+},
+{
+  "id"            :   5,
+  "overview"      :   "Refurbished Single Room",
+  "description"   :   "Single room to rent next to IBM, house has 4 bedrooms and amenities nearby",
+  "type_of_house" :   "House",
+  "region"        :   "Bambala",
+  "isFavorite"    :   false,
+  "images"        :   ["5pic1.jpg"],
+  "ibmer_details" :   {
+    "name"  : "Jack Jackson",
+    "team"  : "Toscana",
+    "email" : "jjack@ibm.ie",
+    "photo" : "jackphoto.jpg"
+  }
+},
+{
+  "id"            :   6,
+  "overview"      :   "Entire house in Wladvimir",
+  "description"   :   "Moving out to live in a different country, renting now my house in Wladvimir for reasonal price",
+  "type_of_house" :   "House",
+  "region"        :   "Wladvirmir",
+  "isFavorite"    :   true,
+  "images"        :   ["6pic1.jpg"],
+  "ibmer_details" :   {
+    "name"  : "James Jameson",
+    "team"  : "CNext",
+    "email" : "jamjam@ibm.ie",
+    "photo" : "jamphoto.jpg"
+  }
+},
+{
+  "id"            :   7,
+  "overview"      :   "Double Room in Arimathaea",
+  "description"   :   "Best deal ever. Unique oportunity to live close to Arimathaea Stadium and a couple of minutes away from IBM!CNext people prefered, as we would work on the same team!",
+  "type_of_house" :   "Gemined House",
+  "region"        :   "Arimathaea",
+  "isFavorite"    :   false,
+  "images"        :   ["7pic1.jpg"],
+  "ibmer_details" :   {
+    "name"  : "Jenna Jenkins",
+    "team"  : "CNext",
+    "email" : "jennaj@ibm.ie",
+    "photo" : "jennaphoto.jpg"
+  }
+},
+{
+  "id"            :   8,
+  "overview"      :   "Couch spot to lend",
+  "description"   :   "If anyone coming from another country to work for a while in IBM Ireland, fell free to take a spot at my place! The apartment is cozy and you can stay as long as necessary!",
+  "type_of_house" :   "Apartment",
+  "region"        :   "Bambala",
+  "isFavorite"    :   false,
+  "images"        :   ["8pic1.jpg"],
+  "ibmer_details" :   {
+    "name"  : "Nabil Nabiley",
+    "team"  : "Toscana",
+    "email" : "nabnab@ibm.ie",
+    "photo" : "nabphoto.jpg"
+  }
 }]

@@ -1,0 +1,75 @@
+[{
+  "id"            :   0,
+  "overview"      :   "Mandarin for Beginners",
+  "description"   :   "Chinese native with experience in teaching foreign languages. We can have lunch sessions or afterwork classes depending on the demand",
+  "region"        :   "Bambala",
+  "type_of_house" :   "Language Class",
+  "isFavorite"    :   true,
+  "images"        :   [ "0class1.jpg"],
+  "ibmer_details" :  {
+    "name"  :  "Jamie Jing",
+    "team"  :  "IBM Bluemix",
+    "email" : "jjing@ibm.ie",
+    "photo" : "jdoepic.jpg"
+  }
+},
+{
+  "id"            :   1,
+  "overview"      :   "Advanced Guitar",
+  "description"   :   "Guitar professional with experience in live gigs. Want to improve your jamming skills? Give me a shout! Live close to IBM, sessions at my place!!",
+  "region"        :   "Arimathaea",
+  "type_of_house" :   "Music Class",
+  "isFavorite"    :   true,
+  "images"        :   ["1class1.jpg"],
+  "ibmer_details" : {
+    "name"  : "Andrew Jones",
+    "team"  : "Design team",
+    "email" : "ajones@ibm.ie",
+    "photo" : "ajonespic.jpg"
+  }
+},
+{
+  "id"            :   2,
+  "overview"      :   "Baking Bread 101",
+  "description"   :   "Want to have fun and bake delicious breads? Want to increase your household income by selling great tasting stuff! This is the right place!",
+  "region"        :   "Indigo",
+  "type_of_house" :   "Baking Class",
+  "isFavorite"    :   false,
+  "images"        :   ["2class1.jpg"],
+  "ibmer_details" :   {
+    "name"  : "Maria Marianna",
+    "team"  : "IBM CNext",
+    "email" : "mm@ibm.ie",
+    "photo" : "mmphoto.jpg"
+  }
+},
+{
+  "id"            :   3,
+  "overview"      :   "Yoga Group in BIM",
+  "description"   :   "We are a group that uses lunchtime sessions to stretch around and get our peace restored! People from 1 to 101 are more than welcome! Namaste!",
+  "type_of_house" :   "Yoga Class",
+  "region"        :   "BIM Premisses (Warehouse B4)",
+  "isFavorite"    :   false,
+  "images"        :   ["3class1.jpg"],
+  "ibmer_details" :   {
+    "name"  : "Andrew Andrews",
+    "team"  : "Orient Me",
+    "email" : "aandrews@ibm.ie",
+    "photo" : "aaphoto.jpg"
+  }
+},
+  {
+    "id"            :   4,
+    "overview"      :   "Advanced CSS",
+    "description"   :   "Giving classes or mini courses for BIMers after workours. CSS, SCSS, SASS and tons of design stuff for front end enthusiasts!",
+    "region"        :   "IBM Premisses - BLD 6",
+    "type_of_house" :   "Coding Related Class",
+    "isFavorite"    :   true,
+    "images"        :   ["4class1.jpg"],
+    "ibmer_details" :   {
+      "name"  : "James Marcus",
+      "team"  : "IBM Kinexa",
+      "email" : "jm@ibm.ie",
+      "photo" : "jjmphoto.jpg"
+    }
+}]

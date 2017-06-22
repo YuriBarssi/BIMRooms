@@ -14,11 +14,10 @@ class MainContentView extends Component {
         <RoomCardContainer />
         <br></br>
         <br></br>
-        <PaginationItem />
         <StaticCornerMenu />
       </div>
     );
   }
 }
 
-export  default MainContentView;
+export default MainContentView;

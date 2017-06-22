@@ -42,7 +42,9 @@
     "babel-plugin-react-transform": "^2.0.2",
     "babel-preset-stage-0": "^6.5.0",
     "express": "^4.14.0",
+    "jquery": "^3.1.1",
     "json-loader": "^0.5.4",
+    "react-router": "^3.0.0",
     "react-transform-hmr": "^1.0.4",
     "webpack": "^1.13.2"
   },
@@ -50,7 +52,7 @@
     "type": "git",
     "url": "git+https://github.com/jasdevsidhu12/BIMRooms.git"
   },
-  "author": "Yuri Brassi, Jasdev Sidhu",
+  "author": "Yuri Barssi, Jasdev Sidhu",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/YuriBarssi/BIMRooms/issues"
