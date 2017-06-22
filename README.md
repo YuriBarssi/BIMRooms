@@ -1,4 +1,5 @@
 # BIMRooms
+[![Build Status](https://travis-ci.org/YuriBarssi/BIMRooms.svg?branch=master)](https://travis-ci.org/YuriBarssi/BIMRooms)
 Prototype of an HR tool to manage room sharing service in BIM company
 
 #To Run the backEnd
