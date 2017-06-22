@@ -7,7 +7,7 @@ class Rows extends Component {
     return(
             this.props.data.map((roomItem, index) => {
                return (
-                <RoomCard key={index} id={index} cardImage={"./images/"+roomItem.images[0]} cardTitle = {roomItem.overview} cardContent = {roomItem.description}/>
+                <RoomCard key={index} id={index} cardImage={"static/images/"+roomItem.images[0]} cardTitle = {roomItem.overview} cardContent = {roomItem.description}/>
               );
             }
           )
