@@ -9,7 +9,8 @@ deploy:
   manifest: manifest.yml
   username: yuribarssi@gmail.com
   password: bim00bim
-  organization: my_organization
-  space: my_space
+  organization: barssicorp
+  space: bim
+  api: https://api.eu-gb.bluemix.net
   on:
     branch: master
