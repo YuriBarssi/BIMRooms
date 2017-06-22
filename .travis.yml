@@ -9,7 +9,7 @@ deploy:
   manifest: manifest.yml
   username: yuribarssi@gmail.com
   password: bim00bim
-  organization: BarssiCorp
-  space: BIM
+  organization: barssicorp
+  space: bim
   on:
     branch: master
