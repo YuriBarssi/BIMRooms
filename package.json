@@ -7,7 +7,7 @@
     "dev": "webpack",
     "start": "node ./backEnd/brServer.js",
     "front": "webpack-dev-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/jasmine-node backEnd/test"
   },
   "dependencies": {
     "babel-core": "^6.10.4",
@@ -19,6 +19,7 @@
     "cross-env": "^1.0.8",
     "css-loader": "^0.23.1",
     "expect": "^1.20.1",
+    "jasmine-node": "^1.14.5",
     "node-libs-browser": "^1.0.0",
     "node-sass": "^3.8.0",
     "react": "^15.1.0",
@@ -29,6 +30,7 @@
     "redux-logger": "^2.6.1",
     "redux-promise": "^0.5.3",
     "redux-thunk": "^2.1.0",
+    "request": "^2.81.0",
     "sass-loader": "^4.0.0",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.1",
