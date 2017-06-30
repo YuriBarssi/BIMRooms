@@ -21,7 +21,7 @@ class NavigationBar extends Component {
 			      <a href="#!" className="brand-logo">
 							<i className="material-icons logo-padding">business</i>BIM
 								<a href="#!" className="dropdown-button" data-activates="dropdown1">
-									{this.state.initialName}
+									<b>{this.state.initialName}<b>
 								</a>
 						</a>
 								<ul id='dropdown1' className="dropdown-content">

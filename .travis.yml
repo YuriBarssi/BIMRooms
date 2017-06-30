@@ -7,10 +7,10 @@ deploy:
   provider: bluemixcloudfoundry
   skip_cleanup: true
   manifest: manifest.yml
-  username: $BLUEMIX_USER
-  password: bim00bim
-  organization: $BLUEMIX_ORGANIZATION
-  space: $BLUEMIX_SPACE
-  api: https://api.eu-gb.bluemix.net
+  username: yuribarssi@gmail.com
+  password: 09aO4PSrjQTF9MKGG5jZ+EZEG+AL5EXWnKgRbHKmjMGqzZvlZ58jbjALaEl9kLCFF/sa+Tfm6oUHMzCrQ1uWA6FB9Xrbz3R5mpkvtS3/yp9M4TkBrpoPLimePqfe/8rsqsSKIahrugh4gsmqEXVMi4WJjnnfglWqAPvfcjNpbLc9SOIccBNfC19HnZ81t8OzbOsMJ9YecygxA2pKeGvKDXVVK8oMJ99ppcRFQ5ZxXuvxf2gIYK3tyzGfHaRvHzHsn5z7SZWxWkFcNsqbjdmz+1wzS+5X+lqf/T8Lr3aGY7A4de0UYTjarfzijxfpCce/73Xp4ZXRHkvDnBbKAJPYVA/W4k28VblzS56YWp7fLaXmwuseGv7Y+n6kvOkkPygt86daGb02LHPrdDSf+9Vb0c5xteIKfUgtStWJ1v+mKUscpE8YmBtDslWJNcKRj3sbJv6zBuv2rsVBPSuNXfF8A5we9Fynwrkd5Oyl6JSQdhHcQ/wjAUHSXSaDyr0HpibbGwKTwkiTPbfc7vtJjCj7lYI3PgCU1qZDkD1WV3/Rw9+2u/mh9CVxqnw5tButDdjoZhgHANDyVVI7tAhOPxXMO3o0qRnAUXlQqHEsnZOj5iF47ROsd7hCA8jJgAPSjK899uVhrPr+PAizhzFLe/p/fmpBpoLuMkdeDarC8oyGMvo=
+  organization: barssicorp
+  space: bimrooms
+  api: https://api.eu-de.bluemix.net
   on:
     branch: master
