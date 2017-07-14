@@ -5,7 +5,6 @@ Prototype of an HR tool to manage offering/sharing services in BIM company
 [![Build Status](https://travis-ci.org/YuriBarssi/BIMRooms.svg?branch=master)](https://travis-ci.org/YuriBarssi/BIMRooms)
 
 ## SETUP
-
 ### To Run the backEnd
 
 `npm run start`
