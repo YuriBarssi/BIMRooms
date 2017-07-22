@@ -4,7 +4,7 @@
   "description": "Prototype of an HR tool to manage room sharing service in BIM company",
   "main": "backEnd/brServer.js",
   "scripts": {
-    "dev": "webpack",
+    "production": "webpack -p",
     "start": "node ./backEnd/brServer.js",
     "front": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -40,10 +40,10 @@
     "babel-plugin-react-transform": "^2.0.2",
     "babel-preset-stage-0": "^6.5.0",
     "express": "^4.14.0",
-    "jquery": "^3.1.1",
     "json-loader": "^0.5.4",
     "react-router": "^3.0.0",
     "react-transform-hmr": "^1.0.4",
+    "strip-loader": "^0.1.2",
     "webpack": "^1.13.2"
   },
   "repository": {

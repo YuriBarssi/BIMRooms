@@ -1,6 +1,7 @@
 var path = require('path');
 var webpack = require('webpack');
-
+//devServer allow the application(css,html,js) to run on a server
+//devServer.inline alows hot reloading on development server
 module.exports = {
     devServer: {
         inline: true,
